@@ -1,0 +1,14 @@
+// Workspace settings
+{
+    // The following will hide the js and map files in the editor
+    "files.exclude": {
+        "**/*.git": true,
+        "__pycache__": true,
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+        ".pylintrc": true,
+        "**/__init__.py": false
+
+    },
+    "python.formatting.provider": "black"
+}
